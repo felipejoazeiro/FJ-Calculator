@@ -5,10 +5,11 @@ body{
     position: relative
 }
 .calculator{
-    width: 20%;
-    margin: 15% auto 0 auto;
+    width: 40%;
+    height: 40vmin;
+    margin: 10% auto 0 auto;
     background-color: rgba(151, 151, 151);
-    padding: 1.4em 1em;
+    padding: 1em 1em;
     border-radius: 10px;
     color: white;
     border: cadetblue 2px solid;
@@ -31,10 +32,11 @@ body{
     background-color: rgb(62, 63, 8);
     padding: 0.5em;
     border-radius: 25px;
+    margin-bottom: 2em;
 }
 .display{
     width: 90%;
-    margin: 0.5em auto;
+    margin: 0 auto 2em auto;
 }
 #display-value{
     width: 100%;
@@ -51,7 +53,7 @@ body{
     margin-top: 0.8em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
-    gap: 0.1em;
+    gap: 1em;
 }
 #button{
     background-color: rgb(85, 104, 98);
